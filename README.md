@@ -49,7 +49,7 @@ Note that the theme should be set in the manifest.
 ```xml
     <activity
         android:name="spt.w0pw0p.material.filepicker.FileSelectionActivity"
-			  android:theme="@style/AppTheme" >
+	android:theme="@style/AppTheme" >
     </activity>
 ```
 
