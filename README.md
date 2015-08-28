@@ -138,7 +138,7 @@ Use this code to capture the results.
 	}
 ```
 		
-### Credits (Libraries and codes used)
+### Credits
 
 <br>~ Base library        - <a href="https://github.com/paulasiimwe/Android-Multiple-file-Selector-Dialog" target="_blank">Android-Multiple-file-Selector-Dialog</a>
 <br>~ Libraries included  - <a href="https://github.com/square/picasso" target="_blank">Picasso</a>, <a href="https://github.com/commonsguy/cwac-merge" target="_blank">CommonsWare Android Components: MergeAdapter</a>
