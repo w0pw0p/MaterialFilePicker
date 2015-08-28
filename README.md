@@ -142,5 +142,5 @@ Use this code to capture the results.
 
 <br>~ Base library        - <a href="https://github.com/paulasiimwe/Android-Multiple-file-Selector-Dialog" target="_blank">Android-Multiple-file-Selector-Dialog</a>
 <br>~ Libraries included  - <a href="https://github.com/square/picasso" target="_blank">Picasso</a>, <a href="https://github.com/commonsguy/cwac-merge" target="_blank">CommonsWare Android Components: MergeAdapter</a>
-<br>~ Icons used        - <a href="http://materialdesignicons.com" target="_blank">Material Design Icons</a>
+<br>~ Icons used        - <a href="https://materialdesignicons.com/" target="_blank">Material Design Icons</a>
 <br>~ Other codes used    - <a href="https://github.com/spacecowboy/NoNonsense-FilePicker" target="_blank">NoNonsense-FilePicker</a>
