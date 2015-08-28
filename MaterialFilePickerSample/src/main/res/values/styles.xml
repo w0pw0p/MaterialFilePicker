@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/cyan_500</item>
+		<item name="colorPrimaryDark">@color/cyan_700</item>
+		<item name="colorAccent">@color/cyan_300</item>
+		<item name="alertDialogTheme">@style/filePickerAlertDialogTheme</item>
+		<item name="actionMenuTextAppearance">@style/actionBarMenuTextSize</item>
+    </style>
+
+	<style name="filePickerAlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert" />
+
+	<style name="actionBarMenuTextSize" parent="Base.TextAppearance.AppCompat.Menu">
+		<item name="android:textSize">12sp</item>
+	</style>
+	
+</resources>

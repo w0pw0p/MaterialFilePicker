@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Material File Picker Library</string>
+    <string name="ok">OK</string>
+    <string name="all">Check All</string>
+    <string name="cancel">Cancel</string>
+    <string name="none">Uncheck All</string>
+    <string name="New">New Folder</string>
+    <string name="CNew">Enter New Folder Name</string>
+    <string name="create">Create</string>
+    <string name="create_folder">Create Folder</string>
+    <string name="switch_storage">Switch Storage</string>
+
+</resources>

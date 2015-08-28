@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/fileSelectionContainer"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/folderpath"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:text=""
+		android:textSize="15dp"/>
+
+	<ListView
+		android:id="@+id/directorySelectionList"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:choiceMode="multipleChoice"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:weightSum="3.0"
+		android:gravity="center">
+
+		<Button
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:text="@string/cancel"
+			android:id="@+id/cancel"
+			android:layout_weight="1.0"
+			android:drawableLeft="@drawable/ic_close_tinted"
+			android:tint="?attr/colorAccent"/>
+
+		<Button
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="@string/all"
+			android:id="@+id/all"
+			android:layout_weight="1.0"
+			android:drawableLeft="@drawable/ic_select_all_tinted"
+			android:tint="?attr/colorAccent"/>
+
+		<Button
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:text="@string/ok"
+			android:id="@+id/ok"
+			android:layout_weight="1.0"
+			android:drawableLeft="@drawable/ic_ok_tinted"
+			android:tint="?attr/colorAccent"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

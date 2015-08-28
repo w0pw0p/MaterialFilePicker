@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_vertical|center_horizontal">
+
+	<CheckBox
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Enable Create New Folder"
+		android:id="@+id/mainCheckBox1"
+		android:layout_marginBottom="10dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Start"
+		android:layout_below="@id/mainCheckBox1"
+		android:id="@+id/mainButton1"
+		android:layout_marginBottom="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/mainButton1"
+		android:text="Results will be displayed here...."
+		android:id="@+id/mainTextView1"/>
+
+</RelativeLayout>
+
